@@ -1,9 +1,10 @@
 class persona:
-    def __init__(self, nombre, apellido, domicilio, edad):
+    def __init__(self, nombre, apellido, domicilio, edad, preferencias):
         self.nombre = nombre
         self.apellido = apellido
         self.domicilio = domicilio
         self.edad = edad
+        self.preferencias = preferencias
     def __str__(self):
         return f"{self.apellido}, {self.nombre}"
 
